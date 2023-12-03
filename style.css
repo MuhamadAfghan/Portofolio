@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.nav-mobile-about {
+    display: none;
+}
+
+body {
+    background-color: hsl(0, 0%, 7%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+/* INI HEADER YA START */
+header {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    position: fixed;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+
+header li a {
+    transition: 0.3s;
+}
+
+header li a:hover {
+    color: #ffbb00;
+}
+
+#name-nav {
+    display: none;
+}
+
+/* INI HEADER YA END */
+
+
+/* INI HOME YA START */
+.home {
+    display: flex;
+    padding-top: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.home .text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.home .text h1 {
+    font-size: 42px;
+    color: white;
+}
+
+.home .text h2 {
+    color: #ffbb00;
+}
+
+.home .text p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.home img {
+    width: 350px;
+}
+
+.about {
+    width: 400px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.about h1,
+.portofolio section h1 {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about h1::after,
+.portofolio section h1::after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #ffbb00;
+    border-radius: 10px;
+}
+
+.about i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.about a:hover i,
+.about a:hover {
+    color: #ffbb00;
+}
+
+.about a i,
+.about a {
+    transition: .2s;
+}
+
+/* INI HOME YA END */
+
+
+/* INI PORTOFOLIO YA START */
+.portofolio .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+}
+
+.portofolio {
+    border-radius: 15px;
+    border: 1px solid hsla(0, 0%, 25%, 0.562);
+    background-color: hsl(240, 2%, 12%);
+    width: 1250px;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portofolio .card {
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.portofolio .card h1 {
+    font-size: 18px;
+    font-weight: 100;
+}
+.portofolio .card p {
+    font-size: 13px;
+    color: hsla(0, 0%, 84%, 0.7);
+}
+
+.portofolio .card .img {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.portofolio .card img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+
+.portofolio .card:hover img {
+    transform: scale(1.1);
+}
+
+.portofolio .card .text-hover {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 73px 131px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+.portofolio .card .text-hover a{
+    font-size: 30px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: rgb(49, 49, 49);
+}
+
+.portofolio .card .text-hover i{
+    color: #ffa600;
+}
+
+.portofolio .card:hover .text-hover {
+    display: flex;
+}
+/* INI PORTOFOLIO YA END */
