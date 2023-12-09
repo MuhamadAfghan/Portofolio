@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="icon" type="image/x-icon"
         href="https://raw.githubusercontent.com/MohamedAfghan/MuhamadAfghan.github.io/main/image/icon-web.png">
     <script src="script.js"></script>
@@ -13,22 +14,26 @@
 </head>
 
 <body>
-    <header>
-        <h1 id="name-nav">Muhamad Afghan Alzena</h1>
-        <nav>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li class="nav-mobile-about"><a href="#About">About</a></li>
-                <li><a href="#Portofolio">Portfolio</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Skill">Skill</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+            <h1 id="name-nav"><a href="#Home">Muhamad Afghan Alzena</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li class="nav-mobile-about"><a href="#About">About</a></li>
+                    <li><a href="#Portofolio">Portfolio</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Skill">Skill</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="btn-backToHome">
+        <a href="#Home"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
     <main>
         <section id="Home" class="home">
-            <div class="text">
+            <img class="imgForMobile" src="image/home-page.png" alt="Foto-Profile">
+            <div class="text text-home">
                 <h1>Hi, I'm Muhamad Afghan Alzena</h1>
                 <h2>Web Developer</h2>
                 <p>
@@ -36,9 +41,9 @@
                     more and more interactive with web animations.
                 </p>
             </div>
-            <img src="image/home-page.png" alt="Foto-Profile">
+            <img class="imgForDekstop" src="image/home-page.png" alt="Foto-Profile">
             <div class="about">
-                <section >
+                <section>
                     <h1>About Me</h1>
                 </section>
                 <div class="text">
@@ -56,95 +61,229 @@
             </div>
         </section>
         <section id="Portofolio" class="portofolio">
-            <section>
-                <h1>Portofolio</h1>
-            </section>
-            <div class="container">
-                <div class="card">
-                    <div class="img">
-                        <div class="text-hover">
-                            <a href="#"><i class="fa-solid fa-eye"></i></a>
+            <div class="animation">
+                <section>
+                    <h1>Portofolio</h1>
+                </section>
+                <div class="container">
+                    <div class="card">
+                        <div class="img">
+                            <div class="text-hover">
+                                <a href="#"><i class="fa-solid fa-eye"></i></a>
+                            </div>
+                            <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
                         </div>
-                        <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
+                        <div class="text">
+                            <h1>Portofolio 1</h1>
+                            <p>
+                                10/10/2022 - 10/10/2022
+                            </p>
+                        </div>
                     </div>
-                    <div class="text">
-                        <h1>Portofolio 1</h1>
-                        <p>
-                            10/10/2022 - 10/10/2022
-                        </p>
+                    <div class="card">
+                        <div class="img">
+                            <div class="text-hover">
+                                <a href="#"><i class="fa-solid fa-eye"></i></a>
+                            </div>
+                            <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
+                        </div>
+                        <div class="text">
+                            <h1>Portofolio 1</h1>
+                            <p>
+                                10/10/2022 - 10/10/2022
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <div class="text-hover">
+                                <a href="#"><i class="fa-solid fa-eye"></i></a>
+                            </div>
+                            <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
+                        </div>
+                        <div class="text">
+                            <h1>Portofolio 1</h1>
+                            <p>
+                                10/10/2022 - 10/10/2022
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <div class="text-hover">
+                                <a href="#"><i class="fa-solid fa-eye"></i></a>
+                            </div>
+                            <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
+                        </div>
+                        <div class="text">
+                            <h1>Portofolio 1</h1>
+                            <p>
+                                10/10/2022 - 10/10/2022
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <div class="text-hover">
+                                <a href="#"><i class="fa-solid fa-eye"></i></a>
+                            </div>
+                            <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
+                        </div>
+                        <div class="text">
+                            <h1>Portofolio 1</h1>
+                            <p>
+                                10/10/2022 - 10/10/2022
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <div class="text-hover">
+                                <a href="#"><i class="fa-solid fa-eye"></i></a>
+                            </div>
+                            <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
+                        </div>
+                        <div class="text">
+                            <h1>Portofolio 1</h1>
+                            <p>
+                                10/10/2022 - 10/10/2022
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="img">
-                        <div class="text-hover">
-                            <a href="#"><i class="fa-solid fa-eye"></i></a>
+            </div>
+        </section>
+        <section id="Services" class="services">
+            <div class="animation">
+                <section>
+                    <h1>Services</h1>
+                </section>
+                <div class="container">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
                         </div>
-                        <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
+                        <div class="text">
+                            <h1>Web Development</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
                     </div>
-                    <div class="text">
-                        <h1>Portofolio 1</h1>
-                        <p>
-                            10/10/2022 - 10/10/2022
-                        </p>
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="text">
+                            <h1>Web Development</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="text">
+                            <h1>Web Development</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="text">
+                            <h1>Web Development</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="img">
-                        <div class="text-hover">
-                            <a href="#"><i class="fa-solid fa-eye"></i></a>
-                        </div>
-                        <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
-                    </div>
-                    <div class="text">
-                        <h1>Portofolio 1</h1>
-                        <p>
-                            10/10/2022 - 10/10/2022
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <div class="text-hover">
-                            <a href="#"><i class="fa-solid fa-eye"></i></a>
-                        </div>
-                        <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
-                    </div>
-                    <div class="text">
-                        <h1>Portofolio 1</h1>
-                        <p>
-                            10/10/2022 - 10/10/2022
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <div class="text-hover">
-                            <a href="#"><i class="fa-solid fa-eye"></i></a>
-                        </div>
-                        <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
-                    </div>
-                    <div class="text">
-                        <h1>Portofolio 1</h1>
-                        <p>
-                            10/10/2022 - 10/10/2022
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <div class="text-hover">
-                            <a href="#"><i class="fa-solid fa-eye"></i></a>
-                        </div>
-                        <a href="#"><img src="image/portofolioImg/portofolio.png" alt=""></a>
-                    </div>
-                    <div class="text">
-                        <h1>Portofolio 1</h1>
-                        <p>
-                            10/10/2022 - 10/10/2022
-                        </p>
-                    </div>
-                </div>
+            </div>
+        </section>
+        <section class="skill" id="Skill">
+            <div class="animation">
+                <section>
+                    <h1 class="h3 skills-title">My skills</h1>
                 
+                </section>
+                <ul class="skills-list content-card">
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h1 class="h1">Hyper Text Markup Language</h1>
+                            <data value="80">80%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 80%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h1 class="h1">Cascading Style Sheets</h1>
+                            <data value="70">70%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h1 class="h1">Java Script</h1>
+                            <data value="12">12%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 12%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h1 class="h1">PHP</h1>
+                            <data value="2">2%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 2%;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="Contact" class="contact">
+            <div class="animation">
+                <section>
+                    <h1>Contact</h1>
+                </section>
+                <div class="container">
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15852.053542036625!2d106.8438312!3d-6.6452587!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c89505b4c37d%3A0x307fc4a38e65fa2b!2sSMK%20Wikrama%20Bogor!5e0!3m2!1sid!2sid!4v1701697378062!5m2!1sid!2sid"
+                            width="600" height="450" style="border:0; filter: sepia(50%);" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </figure>
+                    <form autocomplete="off">
+                        <div class="address">
+                            <div class="input">
+                                <input type="text" id="name" placeholder="Yout name" required>
+                            </div>
+                            <div class="input">
+                                <input type="email" id="email" placeholder="Your email" required>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <textarea id="message" placeholder="Your message" required></textarea>
+                        </div>
+                        <div class="send">
+                            <button type="submit" class="send-btn">
+                                <i class="fa-solid fa-paper-plane"></i><span>Send</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>

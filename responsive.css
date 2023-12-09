@@ -1,0 +1,230 @@
+@media (max-width: 1460px) {
+
+    .portofolio section h1,
+    .services section h1,
+    .contact section h1,
+    .skill section h1,
+    .about h1 {
+        font-size: 30px;
+    }
+
+    .portofolio section h1::after,
+    .services section h1::after,
+    .contact section h1::after,
+    .skill section h1::after,
+    .about h1::after {
+        height: 3px;
+    }
+
+    .home .text h1 {
+        font-size: 30px;
+    }
+
+    .home .text,
+    .about,
+    .home img {
+        width: 260px;
+    }
+
+    .portofolio,
+    .services,
+    .contact,
+    .skill {
+        width: 950px;
+    }
+
+    .contact form input[type="text"],
+    .contact form input[type="email"] {
+        width: 420px;
+    }
+
+    .contact form textarea,
+    .contact iframe {
+        width: 860px;
+    }
+}
+
+
+@media (max-width: 1105px) {
+
+    header li {
+        font-size: 13px;
+    }
+
+    #name-nav {
+        font-size: 25px;
+    }
+
+    .portofolio section h1::after,
+    .services section h1::after,
+    .contact section h1::after,
+    .skill section h1::after,
+    .about h1::after {
+        height: 3px;
+    }
+
+    .home .text h1 {
+        font-size: 20px;
+    }
+
+    .home .text h2 {
+        font-size: 15px;
+    }
+
+    .home .text p {
+        font-size: 13px;
+    }
+
+    .home img {
+        width: 190px;
+    }
+
+    .home .text,
+    .about {
+        width: 200px;
+    }
+
+    .about .text p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .about i {
+        font-size: 15px;
+    }
+
+    .services .text {
+        gap: 5px;
+    }
+
+    .services .text h1,
+    .skill .h1 {
+        font-size: 20px;
+    }
+
+    .services .text p {
+        font-size: 15px;
+    }
+
+    .portofolio,
+    .services,
+    .contact,
+    .skill {
+        width: 790px;
+    }
+
+    .portofolio .card .img {
+        height: 120px;
+    }
+
+    .portofolio .card .text-hover {
+        padding: 33px 60px;
+    }
+
+    .contact form input[type="text"],
+    .contact form input[type="email"] {
+        width: 320px;
+    }
+
+    .contact form textarea,
+    .contact iframe {
+        width: 660px;
+    }
+
+    .contact iframe {
+        height: 400px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .portofolio section h1,
+    .services section h1,
+    .contact section h1,
+    .skill section h1,
+    .about h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .home .text h1,
+    .about h1 {
+        font-size: 15px;
+    }
+
+    .home .text h2 {
+        font-size: 12px;
+    }
+
+    .home .text p,
+    .about .text p {
+        font-size: 10px;
+    }
+
+    .home img {
+        width: 140px;
+    }
+
+    .home .text,
+    .about {
+        width: 130px;
+    }
+
+    .about i {
+        font-size: 10px;
+    }
+
+    .services .text {
+        gap: 5px;
+    }
+
+    .services .text h1,
+    .skill .h1 {
+        font-size: 20px;
+    }
+
+    .services .text p {
+        font-size: 15
+    }
+
+    .portofolio,
+    .services,
+    .contact,
+    .skill {
+        width: 550px;
+    }
+
+    .portofolio .card .img {
+        height: 80px;
+    }
+
+    .portofolio .card i {
+        font-size: 17px;
+    }
+
+    .portofolio .card .text-hover a {
+        padding: 4px 15px;
+    }
+
+
+    .portofolio .card .text-hover {
+        padding: 19px 46px;
+    }
+
+    .contact form input[type="text"],
+    .contact form input[type="email"] {
+        width: 320px;
+    }
+
+    .contact form textarea,
+    .contact iframe {
+        width: 660px;
+    }
+
+    .contact iframe {
+        height: 400px;
+    }
+
+
+
+}
