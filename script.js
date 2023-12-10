@@ -14,3 +14,29 @@ document.addEventListener("scroll", () => {
     btnBack.style.opacity = "0";
   } 
 });
+
+
+
+function showNav() {
+  var btnNavMenu = document.querySelector(".fa-bars");
+  var hiddenNav = document.querySelector(".navMobile");
+  var btnNavHidden = document.querySelector(".fa-xmark");
+  
+  btnNavMenu.style.display = "none";
+  btnNavHidden.style.display = "inherit";
+  hiddenNav.classList.remove("hidden");
+}
+function hideNav() {
+  var hiddenNav = document.querySelector(".navMobile");
+  var btnNavMenu = document.querySelector(".fa-bars");
+  var btnNavHidden = document.querySelector(".fa-xmark");
+  
+  btnNavMenu.style.display = "inherit";
+  btnNavHidden.style.display = "none";
+  hiddenNav.classList.add("hidden");
+}
+
+
+
+
+

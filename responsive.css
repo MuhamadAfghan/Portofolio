@@ -143,7 +143,7 @@
     .contact section h1,
     .skill section h1,
     .about h1 {
-        font-size: 20px;
+        font-size: 24px;
         margin: 0;
     }
 
@@ -174,17 +174,26 @@
         font-size: 10px;
     }
 
+    .services .card {
+        padding: 12px;
+    }
+
     .services .text {
         gap: 5px;
     }
 
-    .services .text h1,
-    .skill .h1 {
-        font-size: 20px;
+    .services .icon i {
+        font-size: 16px;
     }
 
-    .services .text p {
-        font-size: 15
+    .services .text h1,
+    .skill .h1 {
+        font-size: 16px;
+    }
+
+    .services .text p,
+    .portofolio .text p {
+        font-size: 10px
     }
 
     .portofolio,
@@ -192,6 +201,14 @@
     .contact,
     .skill {
         width: 550px;
+    }
+
+    .portofolio .container {
+        gap: 0 13px;
+    }
+
+    .portofolio .text h1 {
+        font-size: 15px;
     }
 
     .portofolio .card .img {
@@ -213,18 +230,343 @@
 
     .contact form input[type="text"],
     .contact form input[type="email"] {
-        width: 320px;
+        width: 230px;
     }
 
     .contact form textarea,
     .contact iframe {
-        width: 660px;
+        width: 480px;
     }
 
     .contact iframe {
-        height: 400px;
+        height: 250px;
+    }
+
+    .contact .send-btn span {
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width : 650px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+        height: 85px;
+    }
+
+    header .nav-mobile-about {
+        display: inherit;
+    }
+
+    .home {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .home .imgForDekstop {
+        display: none;
+    }
+
+    .home .imgForMobile {
+        display: inherit;
+    }
+
+    .home .text {
+        width: 400px;
+        text-align: center;
+
+    }
+
+    .about {
+        border-radius: 15px;
+        border: 1px solid hsla(0, 0%, 25%, 0.562);
+        background-color: hsl(240, 2%, 12%);
+        margin-top: 50px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about .text {
+        width: 450px;
+    }
+
+    .about h1 {
+        gap: 3px;
+    }
+
+    .portofolio section h1,
+    .services section h1,
+    .contact section h1,
+    .skill section h1,
+    .about h1 {
+        font-size: 30px;
+        margin: 0;
+        align-items: center;
+    }
+
+    .home .text h1,
+    .about h1 {
+        font-size: 25px;
+    }
+
+    .home .text h2 {
+        font-size: 20px;
+    }
+
+    .home .text p,
+    .about .text p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .home img {
+        width: 140px;
+    }
+
+    .about i {
+        font-size: 10px;
+    }
+
+    .services .card {
+        padding: 12px;
+        width: 195px;
+    }
+
+    .services .text {
+        gap: 5px;
+    }
+
+    .services .icon i {
+        font-size: 16px;
+    }
+
+    .services .text h1,
+    .skill .h1 {
+        font-size: inherit;
+    }
+
+    .services .text p,
+    .portofolio .text p {
+        font-size: 10px
+    }
+
+    .portofolio,
+    .services,
+    .contact,
+    .skill,
+    .about {
+        width: 450px;
+    }
+
+    .portofolio .container {
+        gap: 0 13px;
+    }
+
+    .portofolio .text h1 {
+        font-size: 20px;
+    }
+
+    .portofolio .card .img {
+        height: 110px;
+    }
+
+    .portofolio .card i {
+        font-size: 25px;
+    }
+
+    .portofolio .card .text-hover a {
+        padding: 4px 15px;
+    }
+
+    .portofolio .card .text-hover {
+        padding: 34px 69px;
+    }
+
+    .contact form input[type="text"],
+    .contact form input[type="email"] {
+        width: 190px;
+        height: 0;
+        padding: 23px;
+    }
+
+    .contact form textarea {
+        padding: 23px;
+    }
+
+    .contact form textarea,
+    .contact iframe {
+        width: 400px;
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 520px) {
+    main {
+        padding: 0 10px 30px 10px;
+    }
+
+    .portofolio,
+    .services,
+    .contact,
+    .skill,
+    .home .about,
+    .home .about .text,
+    .home,
+    .home .text {
+        width: 100%;
+    }
+
+    .portofolio,
+    .services,
+    .about,
+    .skill,
+    .contact {
+        margin-top: 15px;
+        padding: 10px 20px;
+    }
+
+    .portofolio section h1,
+    .services section h1,
+    .contact section h1,
+    .skill section h1 {
+        font-size: 30px;
+    }
+
+    .home .text {
+        padding: 0 20px;
+    }
+
+    .home .text h1 {
+        font-size: 30px;
+    }
+
+    .home .text h2 {
+        font-size: 27px;
+    }
+
+    .home img {
+        width: 200px;
     }
 
 
+    .portofolio .card,
+    .portofolio .card .img {
+        width: 100%;
+        object-fit: cover;
+    }
 
+    .portofolio .card .img {
+        height: auto;
+    }
+
+    .portofolio .card .text-hover {
+        display: none;
+        opacity: 0;
+    }
+
+    .about {
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .about i {
+        font-size: 22px;
+    }
+
+    .services .container {
+        gap: 5px;
+        margin-top: 20px;
+    }
+
+    .services .card {
+        width: 100%;
+    }
+
+    .skills-list {
+        padding: 20px 0;
+    }
+
+    .contact iframe,
+    .contact figure,
+    .contact form,
+    .contact form textarea,
+    .contact form .address,
+    .contact form input[type="text"],
+    .contact form input[type="email"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        flex-direction: row;
+    }
+
+    .headerDekstop {
+        display: none;
+    }
+
+    .headerMobile {
+        display: inherit;
+    }
+
+    .headerMobile {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        backdrop-filter: blur(10px);
+        background-color: hsla(240, 1%, 17%, 0.75);
+        padding: 0;
+    }
+
+    #name-nav {
+        display: inherit;
+        font-size: 20px;
+    }
+
+    .headerMobile .container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .headerMobile .container a {
+        font-size: 20px;
+    }
+
+    .navMobile {
+        width: 100%;
+        position: absolute;
+        top: 85px;
+        left: 0;
+        background-color: hsla(0, 0%, 13%, 0.959);
+        border-top: 2px solid hsl(35, 100%, 68%);
+        border-radius: 0 0 15px 15px;
+    }
+    
+    .navMobile ul {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .btnHidden {
+        font-size: 20px;
+        display: none;
+    }
+    
+    .btnShow {
+        font-size: 18px;
+    }
+    
+    .hidden {
+        display: none;
+    }
 }

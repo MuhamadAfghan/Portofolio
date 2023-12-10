@@ -105,7 +105,7 @@ header li a:hover {
 header.scrolled {
     color: white;
     backdrop-filter: blur(10px);
-    background-color: hsla(240, 1%, 17%, 0.75);
+        background-color: hsla(240, 1%, 17%, 0.75);
 }
 
 
@@ -114,6 +114,8 @@ header.scrolled {
     position: fixed;
     bottom: 20px;
     opacity: 0;
+    z-index: 10;
+
 }
 
 .btn-backToHome a {
@@ -124,6 +126,7 @@ header.scrolled {
     font-size: 28px;
     animation: pop 1s infinite;
     transition: 1s;
+    z-index: 10;
 }
 
 .btn-backToHome i {
@@ -245,7 +248,7 @@ header.scrolled {
     color: white;
 }
 
-.home .text h2 {
+.home .text h2 span {
     color: #ffbb00;
 }
 
@@ -260,6 +263,10 @@ header.scrolled {
 }
 
 .home .imgForMobile {
+    display: none;
+}
+
+.headerMobile {
     display: none;
 }
 
@@ -327,7 +334,6 @@ header.scrolled {
     flex-direction: column;
 }
 
-/* batas */
 .portofolio .card {
     padding-top: 30px;
     cursor: pointer;
@@ -552,7 +558,7 @@ header.scrolled {
     gap: 10px;
     background-color: hsla(0, 0%, 14%, 0.634);
     box-shadow: 0 5px 10px 0px hsla(0, 0%, 0%, 0.15);
-    z-index: 10;
+    z-index: 9;
 }
 
 .contact form .send-btn:active {

@@ -11,22 +11,47 @@
         href="https://raw.githubusercontent.com/MohamedAfghan/MuhamadAfghan.github.io/main/image/icon-web.png">
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/8aef0c64e1.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
-        <header>
+    <header class="headerDekstop">
+        <h1 id="name-nav"><a href="#Home">Muhamad Afghan Alzena</a></h1>
+        <nav class="navDekstop">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li class="nav-mobile-about"><a href="#About">About</a></li>
+                <li><a href="#Portofolio">Portfolio</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Skill">Skill</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header class="headerMobile">
+        <div class="container">
             <h1 id="name-nav"><a href="#Home">Muhamad Afghan Alzena</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li class="nav-mobile-about"><a href="#About">About</a></li>
-                    <li><a href="#Portofolio">Portfolio</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#Skill">Skill</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+            <div class="showNavMobile">
+                <i class="fa-solid fa-bars btnShow" onclick="showNav()"></i>
+                <i class="fa-solid fa-xmark btnHidden" onclick="hideNav()" style="display: none;"></i>
+                <nav class="navMobile hidden" id="navMobileMenu">   
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Portofolio">Portfolio</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Skill">Skill</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Tambahkan kelas 'hidden' pada awalnya untuk menyembunyikan menu -->
+
+
+    </header>
+
+
     <div class="btn-backToHome">
         <a href="#Home"><i class="fa-solid fa-arrow-up"></i></a>
     </div>
@@ -35,14 +60,23 @@
             <img class="imgForMobile" src="image/home-page.png" alt="Foto-Profile">
             <div class="text text-home">
                 <h1>Hi, I'm Muhamad Afghan Alzena</h1>
-                <h2>Web Developer</h2>
+                <h2><span class="multiType"></span></h2>
                 <p>
                     I am a Web Developer. I can provide clean code and pixel perfect design. I also make the website
                     more and more interactive with web animations.
                 </p>
+                <script>
+                    var typingEffect = new Typed(".multiType", {
+                        strings: ["Web development", "Fullstack Development", "Software Engineer"],
+                        loop: true,
+                        typeSpeed: 140,
+                        backSpeed: 80,
+                        backDelay: 1500,
+                    });
+                </script>
             </div>
             <img class="imgForDekstop" src="image/home-page.png" alt="Foto-Profile">
-            <div class="about">
+            <div class="about" id="About">
                 <section>
                     <h1>About Me</h1>
                 </section>
@@ -210,7 +244,7 @@
             <div class="animation">
                 <section>
                     <h1 class="h3 skills-title">My skills</h1>
-                
+
                 </section>
                 <ul class="skills-list content-card">
                     <li class="skills-item">
@@ -261,8 +295,8 @@
                     <figure>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15852.053542036625!2d106.8438312!3d-6.6452587!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c89505b4c37d%3A0x307fc4a38e65fa2b!2sSMK%20Wikrama%20Bogor!5e0!3m2!1sid!2sid!4v1701697378062!5m2!1sid!2sid"
-                            width="600" height="450" style="border:0; filter: sepia(50%);" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
+                            width="600" height="450" style="border:0; filter: sepia(50%);" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                     </figure>
                     <form autocomplete="off">
@@ -274,7 +308,7 @@
                                 <input type="email" id="email" placeholder="Your email" required>
                             </div>
                         </div>
-                        <div class="input">
+                        <div class="inputMasage">
                             <textarea id="message" placeholder="Your message" required></textarea>
                         </div>
                         <div class="send">
