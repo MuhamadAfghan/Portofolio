@@ -33,6 +33,14 @@
         width: 950px;
     }
 
+    .portofolio .card .img {
+        height: 230px;
+    }
+
+    .portofolio .card .text-hover {
+        padding: 33px 60px;
+    }
+
     .contact form input[type="text"],
     .contact form input[type="email"] {
         width: 420px;
@@ -289,6 +297,16 @@
         align-items: center;
         flex-direction: column;
     }
+    .home{
+        animation: downupMobile 3s ease-in-out;
+    }
+    .home .text,
+    .home .about{
+        animation: opacityUp 3s;
+    }
+    .home img {
+        animation: none;
+    }
 
     .about .text {
         width: 450px;
@@ -341,17 +359,17 @@
     }
 
     .services .icon i {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .services .text h1,
     .skill .h1 {
-        font-size: inherit;
+        font-size: 19px;
     }
 
     .services .text p,
     .portofolio .text p {
-        font-size: 10px
+        font-size: 15px
     }
 
     .portofolio,
@@ -548,7 +566,7 @@
         border-top: 2px solid hsl(35, 100%, 68%);
         border-radius: 0 0 15px 15px;
     }
-    
+
     .navMobile ul {
         display: flex;
         flex-direction: column;
@@ -556,17 +574,37 @@
         width: 100%;
         text-align: center;
     }
-    
+
     .btnHidden {
         font-size: 20px;
         display: none;
     }
-    
+
     .btnShow {
         font-size: 18px;
     }
-    
+
     .hidden {
         display: none;
+    }
+
+    .contact form {
+        gap: 15px;
+    }
+
+    .contact form input[type="text"],
+    .contact form input[type="email"],
+    .contact form textarea,
+    .contact form .send-btn {
+        border-radius: 10px;
+    }
+
+    .contact form .address {
+        gap: 10px;
+    }
+
+    .contact form .send-btn {
+        width: 100px;
+        height: 40px;
     }
 }

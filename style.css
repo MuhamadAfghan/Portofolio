@@ -195,6 +195,19 @@ header.scrolled {
     }
 }
 
+@keyframes downupMobile {
+    0% {
+        padding-top: 200px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    100% {
+        padding-top: 100px;
+        opacity: 1;
+    }
+}
+
 @keyframes opacityUp {
     0% {
         opacity: 0;
@@ -326,7 +339,7 @@ header.scrolled {
     border: 1px solid hsla(0, 0%, 25%, 0.562);
     background-color: hsl(240, 2%, 12%);
     width: 1250px;
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 20px;
     display: flex;
     justify-content: center;
