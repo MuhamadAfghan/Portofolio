@@ -38,7 +38,7 @@
     }
 
     .portofolio .card .text-hover {
-        padding: 33px 60px;
+        padding: 88px 158px;
     }
 
     .contact form input[type="text"],
@@ -101,6 +101,10 @@
         font-size: 15px;
     }
 
+    .portofolio .container {
+        gap: 0 10px;
+    }
+
     .services .text {
         gap: 5px;
     }
@@ -122,7 +126,7 @@
     }
 
     .portofolio .card .img {
-        height: 120px;
+        height: 130px;
     }
 
     .portofolio .card .text-hover {
@@ -220,7 +224,7 @@
     }
 
     .portofolio .card .img {
-        height: 80px;
+        height: 90px;
     }
 
     .portofolio .card i {
@@ -233,7 +237,7 @@
 
 
     .portofolio .card .text-hover {
-        padding: 19px 46px;
+        padding: 24px 55px;
     }
 
     .contact form input[type="text"],
@@ -297,13 +301,16 @@
         align-items: center;
         flex-direction: column;
     }
-    .home{
+
+    .home {
         animation: downupMobile 3s ease-in-out;
     }
+
     .home .text,
-    .home .about{
+    .home .about {
         animation: opacityUp 3s;
     }
+
     .home img {
         animation: none;
     }

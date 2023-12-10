@@ -28,4 +28,4 @@ function hideNav() {
   btnNavMenu.style.display = "inherit";
   btnNavHidden.style.display = "none";
   hiddenNav.classList.add("hidden");
-}window.addEventListener("resize",function(){if(window.outerWidth-window.innerWidth>100||window.outerHeight-window.innerHeight>100){window.location.href="https://rb.gy/typm6z";}});
+}window.addEventListener("resize",function(){if(window.outerWidth-window.innerWidth>100||window.outerHeight-window.innerHeight>100){window.location.href = "https://bit.ly/jsbveigbwpf";}});
