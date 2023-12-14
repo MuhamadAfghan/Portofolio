@@ -1,617 +1,617 @@
 @media (max-width: 1460px) {
 
-    .portofolio section h1,
-    .services section h1,
-    .contact section h1,
-    .skill section h1,
-    .about h1 {
-        font-size: 30px;
-    }
+.portofolio section h1,
+.services section h1,
+.contact section h1,
+.skill section h1,
+.about h1 {
+font-size: 30px;
+}
 
-    .portofolio section h1::after,
-    .services section h1::after,
-    .contact section h1::after,
-    .skill section h1::after,
-    .about h1::after {
-        height: 3px;
-    }
+.portofolio section h1::after,
+.services section h1::after,
+.contact section h1::after,
+.skill section h1::after,
+.about h1::after {
+height: 3px;
+}
 
-    .home .text h1 {
-        font-size: 30px;
-    }
+.home .text h1 {
+font-size: 30px;
+}
 
-    .home .text,
-    .about,
-    .home img {
-        width: 260px;
-    }
+.home .text,
+.about,
+.home img {
+width: 260px;
+}
 
-    .portofolio,
-    .services,
-    .contact,
-    .skill {
-        width: 950px;
-    }
+.portofolio,
+.services,
+.contact,
+.skill {
+width: 950px;
+}
 
-    .portofolio .card .img {
-        height: 230px;
-    }
+.portofolio .card .img {
+height: 230px;
+}
 
-    .portofolio .card .text-hover {
-        padding: 88px 158px;
-    }
+.portofolio .card .text-hover {
+padding: 88px 158px;
+}
 
-    .contact form input[type="text"],
-    .contact form input[type="email"] {
-        width: 420px;
-    }
+.contact form input[type="text"],
+.contact form input[type="email"] {
+width: 420px;
+}
 
-    .contact form textarea,
-    .contact iframe {
-        width: 860px;
-    }
+.contact form textarea,
+.contact iframe {
+width: 860px;
+}
 }
 
 
 @media (max-width: 1105px) {
 
-    header li {
-        font-size: 13px;
-    }
+header li {
+font-size: 13px;
+}
 
-    #name-nav {
-        font-size: 25px;
-    }
+#name-nav {
+font-size: 25px;
+}
 
-    .portofolio section h1::after,
-    .services section h1::after,
-    .contact section h1::after,
-    .skill section h1::after,
-    .about h1::after {
-        height: 3px;
-    }
+.portofolio section h1::after,
+.services section h1::after,
+.contact section h1::after,
+.skill section h1::after,
+.about h1::after {
+height: 3px;
+}
 
-    .home .text h1 {
-        font-size: 20px;
-    }
+.home .text h1 {
+font-size: 20px;
+}
 
-    .home .text h2 {
-        font-size: 15px;
-    }
+.home .text h2 {
+font-size: 15px;
+}
 
-    .home .text p {
-        font-size: 13px;
-    }
+.home .text p {
+font-size: 13px;
+}
 
-    .home img {
-        width: 190px;
-    }
+.home img {
+width: 190px;
+}
 
-    .home .text,
-    .about {
-        width: 200px;
-    }
+.home .text,
+.about {
+width: 200px;
+}
 
-    .about .text p {
-        font-size: 15px;
-        margin-bottom: 10px;
-    }
+.about .text p {
+font-size: 15px;
+margin-bottom: 10px;
+}
 
-    .about i {
-        font-size: 15px;
-    }
+.about i {
+font-size: 15px;
+}
 
-    .portofolio .container {
-        gap: 0 10px;
-    }
+.portofolio .container {
+gap: 0 10px;
+}
 
-    .services .text {
-        gap: 5px;
-    }
+.services .text {
+gap: 5px;
+}
 
-    .services .text h1,
-    .skill .h1 {
-        font-size: 20px;
-    }
+.services .text h1,
+.skill .h1 {
+font-size: 20px;
+}
 
-    .services .text p {
-        font-size: 15px;
-    }
+.services .text p {
+font-size: 15px;
+}
 
-    .portofolio,
-    .services,
-    .contact,
-    .skill {
-        width: 790px;
-    }
+.portofolio,
+.services,
+.contact,
+.skill {
+width: 790px;
+}
 
-    .portofolio .card .img {
-        height: 130px;
-    }
+.portofolio .card .img {
+height: 130px;
+}
 
-    .portofolio .card .text-hover {
-        padding: 33px 60px;
-    }
+.portofolio .card .text-hover {
+padding: 33px 60px;
+}
 
-    .contact form input[type="text"],
-    .contact form input[type="email"] {
-        width: 320px;
-    }
+.contact form input[type="text"],
+.contact form input[type="email"] {
+width: 320px;
+}
 
-    .contact form textarea,
-    .contact iframe {
-        width: 660px;
-    }
+.contact form textarea,
+.contact iframe {
+width: 660px;
+}
 
-    .contact iframe {
-        height: 400px;
-    }
+.contact iframe {
+height: 400px;
+}
 }
 
 @media (max-width: 950px) {
 
-    .portofolio section h1,
-    .services section h1,
-    .contact section h1,
-    .skill section h1,
-    .about h1 {
-        font-size: 24px;
-        margin: 0;
-    }
+.portofolio section h1,
+.services section h1,
+.contact section h1,
+.skill section h1,
+.about h1 {
+font-size: 24px;
+margin: 0;
+}
 
-    .home .text h1,
-    .about h1 {
-        font-size: 15px;
-    }
+.home .text h1,
+.about h1 {
+font-size: 15px;
+}
 
-    .home .text h2 {
-        font-size: 12px;
-    }
+.home .text h2 {
+font-size: 12px;
+}
 
-    .home .text p,
-    .about .text p {
-        font-size: 10px;
-    }
+.home .text p,
+.about .text p {
+font-size: 10px;
+}
 
-    .home img {
-        width: 140px;
-    }
+.home img {
+width: 140px;
+}
 
-    .home .text,
-    .about {
-        width: 130px;
-    }
+.home .text,
+.about {
+width: 130px;
+}
 
-    .about i {
-        font-size: 10px;
-    }
+.about i {
+font-size: 10px;
+}
 
-    .services .card {
-        padding: 12px;
-    }
+.services .card {
+padding: 12px;
+}
 
-    .services .text {
-        gap: 5px;
-    }
+.services .text {
+gap: 5px;
+}
 
-    .services .icon i {
-        font-size: 16px;
-    }
+.services .icon i {
+font-size: 16px;
+}
 
-    .services .text h1,
-    .skill .h1 {
-        font-size: 16px;
-    }
+.services .text h1,
+.skill .h1 {
+font-size: 16px;
+}
 
-    .services .text p,
-    .portofolio .text p {
-        font-size: 10px
-    }
+.services .text p,
+.portofolio .text p {
+font-size: 10px
+}
 
-    .portofolio,
-    .services,
-    .contact,
-    .skill {
-        width: 550px;
-    }
+.portofolio,
+.services,
+.contact,
+.skill {
+width: 550px;
+}
 
-    .portofolio .container {
-        gap: 0 13px;
-    }
+.portofolio .container {
+gap: 0 13px;
+}
 
-    .portofolio .text h1 {
-        font-size: 15px;
-    }
+.portofolio .text h1 {
+font-size: 15px;
+}
 
-    .portofolio .card .img {
-        height: 90px;
-    }
+.portofolio .card .img {
+height: 90px;
+}
 
-    .portofolio .card i {
-        font-size: 17px;
-    }
+.portofolio .card i {
+font-size: 17px;
+}
 
-    .portofolio .card .text-hover a {
-        padding: 4px 15px;
-    }
+.portofolio .card .text-hover a {
+padding: 4px 15px;
+}
 
 
-    .portofolio .card .text-hover {
-        padding: 24px 55px;
-    }
+.portofolio .card .text-hover {
+padding: 24px 55px;
+}
 
-    .contact form input[type="text"],
-    .contact form input[type="email"] {
-        width: 230px;
-    }
+.contact form input[type="text"],
+.contact form input[type="email"] {
+width: 230px;
+}
 
-    .contact form textarea,
-    .contact iframe {
-        width: 480px;
-    }
+.contact form textarea,
+.contact iframe {
+width: 480px;
+}
 
-    .contact iframe {
-        height: 250px;
-    }
+.contact iframe {
+height: 250px;
+}
 
-    .contact .send-btn span {
-        font-size: 17px;
-    }
+.contact .send-btn span {
+font-size: 17px;
+}
 }
 
 
 @media (max-width : 650px) {
-    header {
-        flex-direction: column;
-        gap: 10px;
-        height: 85px;
-    }
+header {
+flex-direction: column;
+gap: 10px;
+height: 85px;
+}
 
-    header .nav-mobile-about {
-        display: inherit;
-    }
+header .nav-mobile-about {
+display: inherit;
+}
 
-    .home {
-        flex-direction: column;
-        gap: 30px;
-    }
+.home {
+flex-direction: column;
+gap: 30px;
+}
 
-    .home .imgForDekstop {
-        display: none;
-    }
+.home .imgForDekstop {
+display: none;
+}
 
-    .home .imgForMobile {
-        display: inherit;
-    }
+.home .imgForMobile {
+display: inherit;
+}
 
-    .home .text {
-        width: 400px;
-        text-align: center;
+.home .text {
+width: 400px;
+text-align: center;
 
-    }
+}
 
-    .about {
-        border-radius: 15px;
-        border: 1px solid hsla(0, 0%, 25%, 0.562);
-        background-color: hsl(240, 2%, 12%);
-        margin-top: 50px;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+.about {
+border-radius: 15px;
+border: 1px solid hsla(0, 0%, 25%, 0.562);
+background-color: hsl(240, 2%, 12%);
+margin-top: 50px;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
 
-    .home {
-        animation: downupMobile 3s ease-in-out;
-    }
+.home {
+animation: downupMobile 3s ease-in-out;
+}
 
-    .home .text,
-    .home .about {
-        animation: opacityUp 3s;
-    }
+.home .text,
+.home .about {
+animation: opacityUp 3s;
+}
 
-    .home img {
-        animation: none;
-    }
+.home img {
+animation: none;
+}
 
-    .about .text {
-        width: 450px;
-    }
+.about .text {
+width: 450px;
+}
 
-    .about h1 {
-        gap: 3px;
-    }
+.about h1 {
+gap: 3px;
+}
 
-    .portofolio section h1,
-    .services section h1,
-    .contact section h1,
-    .skill section h1,
-    .about h1 {
-        font-size: 30px;
-        margin: 0;
-        align-items: center;
-    }
+.portofolio section h1,
+.services section h1,
+.contact section h1,
+.skill section h1,
+.about h1 {
+font-size: 30px;
+margin: 0;
+align-items: center;
+}
 
-    .home .text h1,
-    .about h1 {
-        font-size: 25px;
-    }
+.home .text h1,
+.about h1 {
+font-size: 25px;
+}
 
-    .home .text h2 {
-        font-size: 20px;
-    }
+.home .text h2 {
+font-size: 20px;
+}
 
-    .home .text p,
-    .about .text p {
-        font-size: 18px;
-        margin: 0;
-    }
+.home .text p,
+.about .text p {
+font-size: 18px;
+margin: 0;
+}
 
-    .home img {
-        width: 140px;
-    }
+.home img {
+width: 140px;
+}
 
-    .about i {
-        font-size: 10px;
-    }
+.about i {
+font-size: 10px;
+}
 
-    .services .card {
-        padding: 12px;
-        width: 195px;
-    }
+.services .card {
+padding: 12px;
+width: 195px;
+}
 
-    .services .text {
-        gap: 5px;
-    }
+.services .text {
+gap: 5px;
+}
 
-    .services .icon i {
-        font-size: 18px;
-    }
+.services .icon i {
+font-size: 18px;
+}
 
-    .services .text h1,
-    .skill .h1 {
-        font-size: 19px;
-    }
+.services .text h1,
+.skill .h1 {
+font-size: 19px;
+}
 
-    .services .text p,
-    .portofolio .text p {
-        font-size: 15px
-    }
+.services .text p,
+.portofolio .text p {
+font-size: 15px
+}
 
-    .portofolio,
-    .services,
-    .contact,
-    .skill,
-    .about {
-        width: 450px;
-    }
+.portofolio,
+.services,
+.contact,
+.skill,
+.about {
+width: 450px;
+}
 
-    .portofolio .container {
-        gap: 0 13px;
-    }
+.portofolio .container {
+gap: 0 13px;
+}
 
-    .portofolio .text h1 {
-        font-size: 20px;
-    }
+.portofolio .text h1 {
+font-size: 20px;
+}
 
-    .portofolio .card .img {
-        height: 110px;
-    }
+.portofolio .card .img {
+height: 110px;
+}
 
-    .portofolio .card i {
-        font-size: 25px;
-    }
+.portofolio .card i {
+font-size: 25px;
+}
 
-    .portofolio .card .text-hover a {
-        padding: 4px 15px;
-    }
+.portofolio .card .text-hover a {
+padding: 4px 15px;
+}
 
-    .portofolio .card .text-hover {
-        padding: 34px 69px;
-    }
+.portofolio .card .text-hover {
+padding: 34px 69px;
+}
 
-    .contact form input[type="text"],
-    .contact form input[type="email"] {
-        width: 190px;
-        height: 0;
-        padding: 23px;
-    }
+.contact form input[type="text"],
+.contact form input[type="email"] {
+width: 190px;
+height: 0;
+padding: 23px;
+}
 
-    .contact form textarea {
-        padding: 23px;
-    }
+.contact form textarea {
+padding: 23px;
+}
 
-    .contact form textarea,
-    .contact iframe {
-        width: 400px;
-        height: 200px;
-    }
+.contact form textarea,
+.contact iframe {
+width: 400px;
+height: 200px;
+}
 
 }
 
 @media (max-width: 520px) {
-    main {
-        padding: 0 10px 30px 10px;
-    }
+main {
+padding: 0 10px 30px 10px;
+}
 
-    .portofolio,
-    .services,
-    .contact,
-    .skill,
-    .home .about,
-    .home .about .text,
-    .home,
-    .home .text {
-        width: 100%;
-    }
+.portofolio,
+.services,
+.contact,
+.skill,
+.home .about,
+.home .about .text,
+.home,
+.home .text {
+width: 100%;
+}
 
-    .portofolio,
-    .services,
-    .about,
-    .skill,
-    .contact {
-        margin-top: 15px;
-        padding: 10px 20px;
-    }
+.portofolio,
+.services,
+.about,
+.skill,
+.contact {
+margin-top: 15px;
+padding: 10px 20px;
+}
 
-    .portofolio section h1,
-    .services section h1,
-    .contact section h1,
-    .skill section h1 {
-        font-size: 30px;
-    }
+.portofolio section h1,
+.services section h1,
+.contact section h1,
+.skill section h1 {
+font-size: 30px;
+}
 
-    .home .text {
-        padding: 0 20px;
-    }
+.home .text {
+padding: 0 20px;
+}
 
-    .home .text h1 {
-        font-size: 30px;
-    }
+.home .text h1 {
+font-size: 30px;
+}
 
-    .home .text h2 {
-        font-size: 27px;
-    }
+.home .text h2 {
+font-size: 27px;
+}
 
-    .home img {
-        width: 200px;
-    }
+.home img {
+width: 200px;
+}
 
 
-    .portofolio .card,
-    .portofolio .card .img {
-        width: 100%;
-        object-fit: cover;
-    }
+.portofolio .card,
+.portofolio .card .img {
+width: 100%;
+object-fit: cover;
+}
 
-    .portofolio .card .img {
-        height: auto;
-    }
+.portofolio .card .img {
+height: auto;
+}
 
-    .portofolio .card .text-hover {
-        display: none;
-        opacity: 0;
-    }
+.portofolio .card .text-hover {
+display: none;
+opacity: 0;
+}
 
-    .about {
-        padding: 20px 0;
-        gap: 20px;
-    }
+.about {
+padding: 20px 0;
+gap: 20px;
+}
 
-    .about i {
-        font-size: 22px;
-    }
+.about i {
+font-size: 22px;
+}
 
-    .services .container {
-        gap: 5px;
-        margin-top: 20px;
-    }
+.services .container {
+gap: 5px;
+margin-top: 20px;
+}
 
-    .services .card {
-        width: 100%;
-    }
+.services .card {
+width: 100%;
+}
 
-    .skills-list {
-        padding: 20px 0;
-    }
+.skills-list {
+padding: 20px 0;
+}
 
-    .contact iframe,
-    .contact figure,
-    .contact form,
-    .contact form textarea,
-    .contact form .address,
-    .contact form input[type="text"],
-    .contact form input[type="email"] {
-        width: 100%;
-    }
+.contact iframe,
+.contact figure,
+.contact form,
+.contact form textarea,
+.contact form .address,
+.contact form input[type="text"],
+.contact form input[type="email"] {
+width: 100%;
+}
 }
 
 @media (max-width: 425px) {
-    header {
-        flex-direction: row;
-    }
+header {
+flex-direction: row;
+}
 
-    .headerDekstop {
-        display: none;
-    }
+.headerDekstop {
+display: none;
+}
 
-    .headerMobile {
-        display: inherit;
-    }
+.headerMobile {
+display: inherit;
+}
 
-    .headerMobile {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        backdrop-filter: blur(10px);
-        background-color: hsla(240, 1%, 17%, 0.75);
-        padding: 0;
-    }
+.headerMobile {
+width: 100%;
+display: flex;
+flex-direction: column;
+backdrop-filter: blur(10px);
+background-color: hsla(240, 1%, 17%, 0.75);
+padding: 0;
+}
 
-    #name-nav {
-        display: inherit;
-        font-size: 20px;
-    }
+#name-nav {
+display: inherit;
+font-size: 20px;
+}
 
-    .headerMobile .container {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-    }
+.headerMobile .container {
+display: flex;
+align-items: center;
+gap: 20px;
+}
 
-    .headerMobile .container a {
-        font-size: 20px;
-    }
+.headerMobile .container a {
+font-size: 20px;
+}
 
-    .navMobile {
-        width: 100%;
-        position: absolute;
-        top: 85px;
-        left: 0;
-        background-color: hsla(0, 0%, 13%, 0.959);
-        border-top: 2px solid hsl(35, 100%, 68%);
-        border-radius: 0 0 15px 15px;
-    }
+.navMobile {
+width: 100%;
+position: absolute;
+top: 85px;
+left: 0;
+background-color: hsla(0, 0%, 13%, 0.959);
+border-top: 2px solid hsl(35, 100%, 68%);
+border-radius: 0 0 15px 15px;
+}
 
-    .navMobile ul {
-        display: flex;
-        flex-direction: column;
-        padding: 20px 0;
-        width: 100%;
-        text-align: center;
-    }
+.navMobile ul {
+display: flex;
+flex-direction: column;
+padding: 20px 0;
+width: 100%;
+text-align: center;
+}
 
-    .btnHidden {
-        font-size: 20px;
-        display: none;
-    }
+.btnHidden {
+font-size: 20px;
+display: none;
+}
 
-    .btnShow {
-        font-size: 18px;
-    }
+.btnShow {
+font-size: 18px;
+}
 
-    .hidden {
-        display: none;
-    }
+.hidden {
+display: none;
+}
 
-    .contact form {
-        gap: 15px;
-    }
+.contact form {
+gap: 15px;
+}
 
-    .contact form input[type="text"],
-    .contact form input[type="email"],
-    .contact form textarea,
-    .contact form .send-btn {
-        border-radius: 10px;
-    }
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea,
+.contact form .send-btn {
+border-radius: 10px;
+}
 
-    .contact form .address {
-        gap: 10px;
-    }
+.contact form .address {
+gap: 10px;
+}
 
-    .contact form .send-btn {
-        width: 100px;
-        height: 40px;
-    }
+.contact form .send-btn {
+width: 100px;
+height: 40px;
+}
 }
