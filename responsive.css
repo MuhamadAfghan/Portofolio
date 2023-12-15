@@ -484,6 +484,9 @@ width: 200px;
 width: 100%;
 object-fit: cover;
 }
+.portofolio .card img{
+    height: auto;
+}
 
 .portofolio .card .img {
 height: auto;

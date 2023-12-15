@@ -381,28 +381,7 @@ transform: scale(1.1);
 
 .portofolio .card .text-hover {
 display: none;
-position: absolute;
-z-index: 1;
-padding: 73px 131px;
-border-radius: 10px;
-background-color: rgba(128, 128, 128, 0.6);
 }
-
-.portofolio .card .text-hover a {
-font-size: 30px;
-padding: 10px 30px;
-border-radius: 15px;
-background-color: rgb(49, 49, 49);
-}
-
-.portofolio .card .text-hover i {
-color: #ffa600;
-}
-
-.portofolio .card:hover .text-hover {
-display: flex;
-}
-
 /* INI PORTOFOLIO YA END */
 
 
